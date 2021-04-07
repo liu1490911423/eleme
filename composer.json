@@ -1,0 +1,21 @@
+{
+    "name": "lld/hummingbird",
+    "description": "a api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liu1490911423",
+            "email": "1490911423@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "hummingbird\\": "src/"
+        }
+    }
+}
